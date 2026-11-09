@@ -1,16 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🎬 Movie Search Website
 
-Currently, two official plugins are available:
+A dynamic and user-friendly Movie Search Website built using **React.js** and the **OMDb API**. This application allows users to search for movies by title and explore movie information, including titles, release years, and posters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search movies by title.
+- 🎥 Display movie posters and titles.
+- 📅 Show movie release years.
+- 🌐 Fetch movie details dynamically using the OMDb API.
+- ⚡ Interactive user interface built with React.js.
+- 🧩 Reusable React components.
+- 📱 Responsive and user-friendly design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the Oxlint configuration
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Framework:** React.js
+- **API:** OMDb API
+- **Tools:** VS Code, Git, GitHub
+- **Package Manager:** npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🔄 How It Works
+
+1. Users enter a movie name in the search bar.
+2. The React application captures the search input.
+3. An API request is sent to the OMDb API.
+4. The API returns movie information in JSON format.
+5. React processes the response and displays the matching movies.
+6. Users can explore movie titles, release years, and posters.
+
+## 🎯 Project Objective
+
+The main objective of this project is to develop a movie search application using React.js and API integration while gaining practical experience in frontend development, state management, reusable components, and handling dynamic data.
+
